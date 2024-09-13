@@ -20,6 +20,14 @@ public class SpaceAlien {
         this.homePlanet = homePlanet;
         this.distanceFromEarth = distanceFromEarth;
     }
+    
+    public String getHomePlanet() {
+    	return homePlanet;
+    }
+    
+    public double getDistFromEarth() {
+    	return distanceFromEarth;
+    }
 
     public void doGreeting() {
         System.out.println("Greetings form planet " + homePlanet + ", "
